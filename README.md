@@ -18,9 +18,9 @@
 
 ### Publish MQTT messages
 
-- <code>docker run -it --rm --name mqtt-publisher --network ida-platform\*bridge efrecon/mqtt-client pub -h mosquitto -t "covideagle" -m "customer:1"</code> _(Add a customer to the confined area)_
+- <code>docker run -it --rm --name mqtt-publisher --network ida-platform\_bridge efrecon/mqtt-client pub -h mosquitto -t "covideagle" -m "customer:1"</code> _(Add a customer to the confined area)_
 
-- <code>docker run -it --rm --name mqtt-publisher --network ida-platform\*bridge efrecon/mqtt-client pub -h mosquitto -t "covideagle" -m "customer:-1"</code> _(Remove a customer from the confined area)_
+- <code>docker run -it --rm --name mqtt-publisher --network ida-platform\_bridge efrecon/mqtt-client pub -h mosquitto -t "covideagle" -m "customer:-1"</code> _(Remove a customer from the confined area)_
 
 ### Check if Kafka received the message
 
